@@ -1,0 +1,95 @@
+* {
+    font-family: "Londrina Solid";
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.wrap {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media screen and (min-width: 570px) {
+    .wrap {
+        flex-direction: row-reverse;
+        align-items: stretch;
+    }
+    header {
+        margin-top: 0px;
+    }
+    #navigationDiv {
+        height: 550px;
+        
+    }
+    .factDiv {
+    max-width: 110px;
+        
+    }
+
+    
+}
+
+.factDiv {
+    width: 100%;
+    min-height: 95px;
+    border-radius: 35px;
+}
+
+#funFact {
+    background-color: #F9C746;
+}
+#darkFact {
+    background-color: #00718A;
+}
+
+#navigationDiv {
+    width: 100%;
+    min-height: 510px;
+    background-color: #16D3ED;
+    border-radius: 35px;
+}
+
+#backBt {
+    position: relative;
+    left: 15px;
+    margin-top: 20px;
+}
+#formFlex {
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 15px;
+    height: 289px;
+    width: 70%;
+    max-width: 700px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#submit {
+    width: 125px;
+    height: 45px;
+    top: 395px;
+    left: 133px;
+    border-radius: 35px;
+    background-color: white;
+    border: 0;
+    /* border-bottom: ; */
+
+}
